@@ -77,7 +77,7 @@ h3  {
     font-size: 25px;
     color: white;
     background: teal;
-    width: 48.5%;
+    width: 49%;
 }
 
 input[type=text], select, textarea  {
@@ -149,5 +149,21 @@ bottom{
     display: table;
   }
 
+@media screen and (max-width: 980px) {
 
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+#header {
+    position: fixed;
+    z-index: 2;
+}
+.content {
+    width: 100%;
+}
+}
   
