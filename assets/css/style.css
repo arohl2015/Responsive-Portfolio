@@ -150,14 +150,14 @@ bottom  {
 }
 
 @media screen and (max-width: 980px) {
-#container {
+
+    #container {
     width: 100%;
 }
 
 .about-me {
     width: 70%;
 }
-
 
 }
 
@@ -193,8 +193,7 @@ bottom  {
     
     h3 {
         width: max-content;
-
     }
 
-
+}
 
