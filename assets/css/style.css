@@ -150,25 +150,21 @@ bottom{
   }
 
 @media screen and (max-width: 980px) {
-
 }
 
-@media screen and (max-width:768px) {
-
+@media screen and (max-width: 768px) {
 }
 
 @media screen and (max-width: 640px) {
-#header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-}
-.nav_links {
-    position: relative;
-    overflow: hidden;
-}
-.content {
-    width: 100%;
-}
-}
-  
+    header { 
+        position: fixed;
+        z-index: 1;
+    }
+    .about {
+        margin-top: 100px;
+        min-height: 550px;
+    }
+    .portfolio-container {
+        margin-top: 100px;
+        min-height: 900px;
+    }
